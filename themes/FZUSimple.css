@@ -1,0 +1,139 @@
+/*
+ * @theme FZUSimple
+ */
+
+@charset "UTF-8";
+@import 'default';
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700&display=swap');
+@import '~highlight.js/styles/sunburst';
+
+header {
+  text-align:center;
+  font-size: 0px;
+  left: 50px;
+  right: 50px;
+  top: 10px;
+  height: 50px;
+  background-image: url("../images/logo.png");
+  background-position: right top,center top;
+  background-repeat: no-repeat,no-repeat;
+  background-size: 150px,230px;
+  text-align:left;
+  color: rgba(241, 109, 0, 0.849);
+  font-weight: bold;
+  font-size:20px;
+}
+
+section {
+  font-size: 25px;
+  padding: auto;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  background:white;
+}
+ 
+h1 {
+  text-align:left;
+  color: black;
+  margin-top: 0px;
+  font-size:72px;
+}
+
+h2 {
+  text-align:left;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: black;
+  font-size:60px;
+}
+
+h3 {
+  color: rgb(60, 112, 198);
+  font-size:36px;
+  text-align:left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-size:30px;
+  text-align:left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+h6 {
+  text-align:center;
+  font-size:30px;
+  text-align:left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2,h3,h4,h5,h6{
+  font-family: 'Times New Roman',"宋体", Georgia, Times, serif;
+}
+
+p {
+  text-align: left;
+  margin-left: 0%;
+  font-family: "宋体",'Times New Roman', Georgia, Times, serif;
+}
+
+
+section.firstpage{
+  text-align: center;
+  background-image: none;
+}
+
+section.firstpage h1 {
+  color: white;
+  background-color: rgb(204, 0, 0) ;
+  border:0px;
+  text-align:center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size:72px;
+}
+
+section.firstpage h2,h3 {
+  color: white;
+  background-color: rgb(204, 0, 0) ;
+  border:0px;
+  text-align:center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size:60px;
+}
+
+section.firstpage p {
+  text-align: center;
+}
+
+section.firstpage header {
+  background-image: none;
+}
+
+
+section.contents{
+  background-image: url("../images/38.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  text-align: center;
+}
+
+section.contents h1{
+  padding-left: 16%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+section.contents h2,h3,h4,h5,h6{
+  padding-left: 8%;
+  text-align: start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
